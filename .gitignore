@@ -8,9 +8,6 @@
 # dependencies
 /node_modules
 
-# video
-/src/assets/video
-
 # IDEs and editors
 /.idea
 .project

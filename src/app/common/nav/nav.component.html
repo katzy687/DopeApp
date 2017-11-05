@@ -1,0 +1,16 @@
+<mat-toolbar>
+      <div routerLink="search" class="logo">
+          <img src="assets/images/transparent-logo.png" alt="">
+      </div>
+      <span class="example-spacer"></span>
+      <mat-nav-list>
+          <button mat-button mat-list-item
+                  class="links" 
+                  *ngFor="let link of links"
+                  [routerLink]="link.path"
+                  routerLinkActive="active"
+                  > 
+                  {{ link.name }}
+          </button>
+      </mat-nav-list>
+</mat-toolbar>

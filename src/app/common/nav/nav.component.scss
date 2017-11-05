@@ -1,0 +1,29 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.active {
+  background: #34b3a0;
+}
+
+.mat-toolbar {
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 10vh;
+  z-index: 5;
+  background: #212121;
+}
+
+.mat-button {
+  color: white;
+}
+
+.logo img{
+  max-width: 64px;
+  cursor: pointer;
+}
+
+
+

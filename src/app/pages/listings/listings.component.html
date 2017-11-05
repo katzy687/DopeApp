@@ -1,0 +1,17 @@
+<div class="page-container">
+  <div class="listings-container">
+      <mat-grid-list cols="4" rowHeight="200" gutterSize="4px">
+          <mat-grid-tile
+              *ngFor="let tile of tiles"
+              [colspan]="tile.cols"
+              [rowspan]="tile.rows"
+              [style.background]="tile.color">
+            {{tile.text}}
+          </mat-grid-tile>
+        </mat-grid-list>
+  </div>
+  
+  <div class="map-container">
+    <img src="assets/images/ohio.png" alt="">
+  </div>
+</div>
